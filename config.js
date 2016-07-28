@@ -1,24 +1,20 @@
 'use strict';
 
 module.exports = {
-	type: "service",
-	prerequisites: {
-		cpu: '',
-		memory: ''
-	},
+	type: "daemon",
+	prerequisites: {},
 
-	serviceName: "sampleService",
-	serviceGroup: "Sample Services Group",
+	serviceName: "sampleDaemon",
+	serviceGroup: "Sample Daemons Group",
 
 	serviceVersion: 1,
-	servicePort: 4150,
-
-	extKeyRequired: true,
+	servicePort: 4151,
+	waitTimeInMin: 1 * 60,
 
 	"errors": {
 		//error codes
 	},
 	"schema": {
-		//IMFV config
+		//jobs config
 	}
 };
