@@ -1,9 +1,6 @@
 'use strict';
 
 module.exports = {
-    type: "static",
-
-    name: "SampleFrontendUI",
-
-    dashUI: false
+    'type': 'multi',
+    'folders': ['/service1/', '/daemon1/']
 };
