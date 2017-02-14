@@ -2,7 +2,7 @@ module.exports = {
 	type: "daemon",
 	prerequisites: {},
 
-	serviceName: "sampleDaemon",
+	serviceName: "sampledaemon",
 	serviceGroup: "Sample Daemons Group",
 
 	serviceVersion: 1,

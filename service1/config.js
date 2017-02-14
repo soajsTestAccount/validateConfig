@@ -5,7 +5,7 @@ module.exports = {
 		memory: ''
 	},
 
-	serviceName: "sampleService",
+	serviceName: "sampleservice",
 	serviceGroup: "Sample Services Group",
 
 	serviceVersion: 1,
